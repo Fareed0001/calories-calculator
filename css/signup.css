@@ -1,18 +1,18 @@
 /* STYLES.CSS OVER WRTITTEN STYLES */
 .navbar, .login-button:hover, .sign-in-button:hover, footer, .footer-android-button:hover, .footer-iphone-button:hover {
-  background-color: #00aed1;
+  background-color: #0d6efd;
 }
 
 button.close-button, .login-button, .sign-in-button, .logo-text, a.sidebar-text, .side-signin-button, .side-signup-button, .footer-android-button, .footer-iphone-button {
-  color: #00aed1;
+  color: #0d6efd;
 }
 
 .side-signin-button, .side-signup-button {
-  border: 2px solid #00aed1;
+  border: 2px solid #0d6efd;
 }
 
 .side-signin-button:hover, .side-signup-button:hover {
-  background-color: #00aed1;
+  background-color: #0d6efd;
 }
 /* STYLES.CSS OVER WRTITTEN STYLES */
 
