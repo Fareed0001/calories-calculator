@@ -1,3 +1,12 @@
+.btn.btn-primary {
+  background-color: #810CA8;
+}
+
+.btn.btn-primary:hover {
+  background-color: #2D033B;
+}
+
+
 /* PHONE */
 /* SIDE BUTTONS */
 .side-signin-button, .side-signup-button {
