@@ -1,18 +1,4 @@
-.btn.btn-primary {
-  background-color: #810CA8;
-}
-
-.btn.btn-primary:hover {
-  background-color: #2D033B;
-}
-
-
 /* PHONE */
-/* SIDE BUTTONS */
-.side-signin-button, .side-signup-button {
-  font-size: 1.4rem;
-}
-
 /* BODY */
 .signup-img-col {
   display: none;
@@ -24,11 +10,11 @@
 
 /* FORM */
 form {
-  padding: 10% 0 5%;
+  padding: 15% 0;
 }
 
 .submit-div {
-  margin-top: 5%;
+  margin-top: 15%;
 }
 
 .forgotten-password {
@@ -66,7 +52,7 @@ hr.signup-hr {
 
 /* PC MEDIA QUERY */
 @media (min-width: 992px) {
-  .signup-img-col, .footer-first-div {
+  .signup-img-col {
     display: block;
   }
 
