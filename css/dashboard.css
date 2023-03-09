@@ -1,3 +1,186 @@
-h1 {
-    margin: 50% auto;
+
+/* COLOR  */
+.dash-div, .first-container, .btn.more-food:hover {
+    background-color: #ececea;
 }
+
+.first-container-header, .first-container-text a, .btn.more-food:hover {
+    color: #a226cc;
+}
+
+.first-container-sub-header {
+    color: #9ca3af
+}
+
+.notification-number, .btn.more-food {
+    background-color: #a226cc;
+    color: white;
+}
+/* COLOR END */
+
+body {
+    background-color: #a226cc !important;
+    padding: 5%;
+}
+
+.dash-div {
+    border-radius: 32px;
+    padding: 1rem;
+}
+
+.navbar-username {
+    display: inline;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+/* HEADER  */
+.navbar {
+    border-radius: 12px;
+    width: 90%;
+    margin: auto;
+}
+
+.user-gif {
+    width: 1.4rem;
+}
+
+/* SEARCH BAR  */
+.form {
+    position: relative;
+}
+
+.form .fa-search{
+    position: absolute;
+    top: .5rem;
+    left: 1rem;
+    color: #9ca3af;
+}
+
+.form .nav-mic {
+    position: absolute;
+    right: 1rem;
+    top: .2rem;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+}
+
+.nav-mic i {
+   padding-left: .8rem;
+}
+
+.form-input {
+    height: 2rem;
+    text-indent: 2.2rem;
+    border-radius: 12px !important; 
+    width: 30rem !important; 
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border:none;
+}
+/* SEARCH BAR  END*/
+
+
+.notification-number {
+    display: inline;
+    padding: .2rem .6rem .4rem;
+    margin-left: .5rem;
+    border-radius: 4px;
+}
+
+/* FIRST CONTAINER  */
+.first-container-gif {
+    width: 100%;
+}
+
+.first-container-header-div {
+    padding: 12% 5% 0;    /* top left&right bottom */
+}
+
+.first-container-header {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.first-container-sub-header {
+    font-size: .9rem;
+    display: block;
+    font-weight: 400;
+}
+
+.first-container-text a {
+    display: inline;
+    margin-left: 70%;
+    line-height: 5rem;
+    text-decoration: none;
+}
+
+.fa-arrow-right {
+    margin-left: .5rem;
+}
+
+/* SECOND CONTAINER  */
+
+.second-container-header {
+    padding: 3%;
+}
+
+.second-container-header {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.food-header {
+    width: 2rem;
+    display: inline;
+    padding-bottom: .5rem;
+}
+
+.btn.more-food {
+    float: right;
+    display: inline;
+}
+
+.btn.more-food:hover {
+    border: 1px solid #a226cc;
+}
+
+.fa-chevron-down {
+    font-size: .8rem;
+    margin-left: .4rem;
+}
+
+/* FOOD TYPES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
