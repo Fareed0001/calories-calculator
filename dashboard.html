@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,64 +10,818 @@
   <!-- favicon -->
   <link rel="shortcut icon" href="images\logo.png">
   <!-- Bootstrap links -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
   <!-- font awesome link -->
   <script src="https://kit.fontawesome.com/a9a7c27c71.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+
   <div class="container-fluid dash-div">
     <nav class="navbar">
-        <div class="navbar-div-1">
-          <i class="fa-solid fa-grip-lines fa-beat nav-icon"></i>
-          <p class="navbar-username">username</p>
-        </div>
-        
-        <div class="form">
-          <i class="fa fa-search"></i>
-          <input type="text" class="form-control form-input nav-search" placeholder="Search food ">
-          <span class="nav-mic"><i class="fa fa-microphone"></i></span>
-        </div>
+      <div class="navbar-div-1">
+        <p class="navbar-username">username</p>
+      </div>
 
-        <div class="navbar-div-2">
-          <!-- <i class="fa-solid fa-user nav-icon"></i> -->
-          <img class="user-gif" src="images\user.gif" alt="">
-          <div class="notification-number">
-            3
-          </div>
-        </div>
+      <div class="form">
+        <i class="fa fa-search"></i>
+        <input type="text" class="form-control form-input nav-search" placeholder="Search food ">
+        <span class="nav-mic"><i class="fa fa-microphone"></i></span>
+      </div>
+
+      <div class="navbar-div-2">
+        <img class="user-gif" src="images\user.gif" alt="user">
+      </div>
     </nav>
 
     <div class="container first-container">
       <div class="row">
+        <!-- FIRST CONTAINER COL-1 START  -->
         <div class="col-md-8">
-          <div class="col"> 
-            <div class="row">
+          <div class="col">
+            <div class="row first-container-row">
               <div class="col-5">
                 <img class="first-container-gif" src="images\dashboard.gif" alt="">
               </div>
               <div class="col-7 first-container-header-div">
                 <p class="first-container-header">Welcome to Calories Calculator
-                  <span class="first-container-sub-header">The only calories calculator you will ever need</span></p>
-                <p class="first-container-text"><a href="">learn more <i class="fa-solid fa-arrow-right"></i></a></p>
+                  <span class="first-container-sub-header">The only calories calculator you will ever need</span>
+                </p>
+                <button type="button" class="btn rounded-pill first-container-text">learn more <i
+                    class="fa-solid fa-arrow-right"></i></button>
               </div>
             </div>
           </div>
+
+          <div class="learn-more-div">
+            <div class="row">
+              <div class="col-md">
+                <!-- CALORY EATEN START -->
+                <div class="calory-eaten-div">
+                  <p class="calory-eaten-header">Recently consumed calories</p>
+
+                  <div class="calory-eaten-card">
+                    <div class="row calory-eaten-row">
+                      <div class="col-md-4">
+                        <img src="images\pancakes.jpg" class="img-fluid" alt="jellof">
+                      </div>
+                      <div class="col-md-8">
+                        <p class="calory-eaten-text"><span class="calory-eaten-type">Pancakes x4</span> <span
+                            class="calory-eaten-calories">580</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="calory-eaten-card">
+                    <div class="row calory-eaten-row">
+                      <div class="col-md-4">
+                        <img src="images\buns.jpg" class="img-fluid" alt="buns">
+                      </div>
+                      <div class="col-md-8">
+                        <p class="calory-eaten-text"><span class="calory-eaten-type">Fried buns x6</span> <span
+                            class="calory-eaten-calories">640</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="calory-eaten-card">
+                    <div class="row calory-eaten-row">
+                      <div class="col-md-4">
+                        <img src="images\ramen.jpg" class="img-fluid" alt="ramen">
+                      </div>
+                      <div class="col-md-8">
+                        <p class="calory-eaten-text"><span class="calory-eaten-type">Noodles x1</span> <span
+                            class="calory-eaten-calories">430</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="calory-eaten-card">
+                    <div class="row calory-eaten-row">
+                      <div class="col-md-4">
+                        <img src="images\jellof.jpg" class="img-fluid" alt="jellof">
+                      </div>
+                      <div class="col-md-8">
+                        <p class="calory-eaten-text"><span class="calory-eaten-type">Jellof Rice x1</span> <span
+                            class="calory-eaten-calories">440</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="calory-eaten-card">
+                    <div class="row calory-eaten-row">
+                      <div class="col-md-4">
+                        <img src="images\pancakes.jpg" class="img-fluid" alt="jellof">
+                      </div>
+                      <div class="col-md-8">
+                        <p class="calory-eaten-text"><span class="calory-eaten-type">Pancakes x4</span> <span
+                            class="calory-eaten-calories">580</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="calory-eaten-card">
+                    <div class="row calory-eaten-row">
+                      <div class="col-md-4">
+                        <img src="images\buns.jpg" class="img-fluid" alt="buns">
+                      </div>
+                      <div class="col-md-8">
+                        <p class="calory-eaten-text"><span class="calory-eaten-type">Fried buns x6</span> <span
+                            class="calory-eaten-calories">640</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="calory-eaten-card">
+                    <div class="row calory-eaten-row">
+                      <div class="col-md-4">
+                        <img src="images\ramen.jpg" class="img-fluid" alt="ramen">
+                      </div>
+                      <div class="col-md-8">
+                        <p class="calory-eaten-text"><span class="calory-eaten-type">Noodles x1</span> <span
+                            class="calory-eaten-calories">430</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="calory-eaten-card">
+                    <div class="row calory-eaten-row">
+                      <div class="col-md-4">
+                        <img src="images\jellof.jpg" class="img-fluid" alt="jellof">
+                      </div>
+                      <div class="col-md-8">
+                        <p class="calory-eaten-text"><span class="calory-eaten-type">Jellof Rice x1</span> <span
+                            class="calory-eaten-calories">440</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="calory-eaten-card">
+                    <div class="row calory-eaten-row">
+                      <div class="col-md-4">
+                        <img src="images\pancakes.jpg" class="img-fluid" alt="jellof">
+                      </div>
+                      <div class="col-md-8">
+                        <p class="calory-eaten-text"><span class="calory-eaten-type">Pancakes x4</span> <span
+                            class="calory-eaten-calories">580</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="calory-eaten-card">
+                    <div class="row calory-eaten-row">
+                      <div class="col-md-4">
+                        <img src="images\buns.jpg" class="img-fluid" alt="buns">
+                      </div>
+                      <div class="col-md-8">
+                        <p class="calory-eaten-text"><span class="calory-eaten-type">Fried buns x6</span> <span
+                            class="calory-eaten-calories">640</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <!-- CALORY EATEN END  -->
+              </div>
+              <div class="col-md">
+                <!-- LOG DIET START  -->
+                <div class="row">
+                  <div class="col-12 log-diet-col">
+                    <div class="row">
+                      <div class="col-2">
+                        <img class="log-diet-img" src="images\log-diet.gif" alt="">
+                      </div>
+                      <div class="col-10">
+                        <p class="log-diet-text">Log more than 400 calories daily record and get your weight forcast and
+                          diet plan.</p>
+                      </div>
+                    </div>
+                    <p class="log-diet-link"><a href="">DAILY LOG</a></p>
+                  </div>
+                  <div class="col-12 graph-image-col">
+                    <div class="row">
+                      <div class="col-2">
+                        <img class="log-diet-img" src="images\weight-plan.gif" alt="">
+                      </div>
+                      <div class="col-10">
+                        <p class="log-diet-text">Weight plan: Please reduce your calories intake.</p>
+                      </div>
+                    </div>
+                    <div>
+                      <img class="graph-image" src="images\graph.gif" alt="">
+                    </div>
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-2">
+                          <img class="log-diet-img" src="images\weight-scale.gif" alt="">
+                        </div>
+                        <div class="col-10">
+                          <p class="log-diet-text">Current weight: Current weight is 80kg, improve workout routine to
+                            meet weight goals.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- LOG DIET END  -->
+              </div>
+            </div>
+          </div>
+
           <div class="col">
             <div class="second-container-div">
-              <p class="second-container-header">Foods <img class="food-header" src="images\food-header.gif" alt=""><button type="button" class="btn rounded-pill more-food">More food <i class="fa-solid fa-chevron-down"></i></button></p>
+              <p class="second-container-header">Foods <img class="food-header" src="images\food-header.gif"
+                  alt=""><button type="button" class="btn rounded-pill more-food">More food <i
+                    class="fa-solid fa-chevron-down"></i></button></p>
               <div class="container food-types">
-                
+                <!-- CAROUSEL START-->
+                <div class="row">
+                  <div class="col-10 slider-col">
+                    <div class="slider">
+                      <div class="slider-inner">
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-bowl-food"></i>
+                            <p>All</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-burger"></i>
+                            <p>burger</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-bacon"></i>
+                            <p>bacon</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-pizza-slice"></i>
+                            <p>pizza</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-hotdog"></i>
+                            <p>hotdog</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-carrot"></i>
+                            <p>carrot</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-bowl-rice"></i>
+                            <p>rice</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-apple-whole"></i>
+                            <p>apple</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-cookie"></i>
+                            <p>cookie</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-drumstick-bite"></i>
+                            <p>chicken</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-egg"></i>
+                            <p>egg</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-bread-slice"></i>
+                            <p>bread</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-mug-hot"></i>
+                            <p>tea</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-plate-wheat"></i>
+                            <p>wheat</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-shrimp"></i>
+                            <p>shrimp</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-cheese"></i>
+                            <p>cheese</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-cake-candles"></i>
+                            <p>cake</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-cow"></i>
+                            <p>meat</p>
+                          </button>
+                        </div>
+                        <div class="slider-item">
+                          <button class="food-button btn rounded-pill" type="button"><i
+                              class="button-food-icon fa-solid fa-lemon"></i>
+                            <p>lemon</p>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="control">
+                      <button id="next"><span>&rtrif;</span></button>
+                    </div>
+                  </div>
+                </div>
               </div>
+              <!-- CAROUSEL END-->
+
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
+          <!-- FRUITS AND VEGETABLES START-->
+          <div class="col">
+
+            <div class="fruit-and-veg-div">
+              <div class="col">
+                <div class="fruit-and-veg-col1">
+                  <p class="fruit-and-veg-text1">Fruits details</p>
+                  <img class="fruit-and-veg-img1" src="images\fruit-img-1.jpg" alt="">
+                </div>
+              </div>
+              <div class="col">
+                <div class="fruit-and-veg-col2">
+                  <p class="fruit-and-veg-text2">Vegetable details</p>
+                  <img class="fruit-and-veg-img2" src="images\fruit-img-2.jpg" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- FRUITS AND VEGETABLES END -->
+          <!-- RAW FRUITS -->
+          <div class="col">
+            <div class="raw-fruits">
+
+              <div class="raw-fruits-header">
+                <div class="row">
+                  <div class="col-4">
+                    <p>Fruits <img class="raw-fruit-header-img" src="images\fruits-icon.gif" alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p>Quantity</p>
+                  </div>
+                  <div class="col-3">
+                    <p>Calories</p>
+                  </div>
+                </div>
+              </div>
+              <div class="raw-fruits-body">
+
+                <div class="raw-fruit-card row">
+                  <div class="col-4">
+                    <p class="raw-fruit-text">Apple <img class="raw-fruit-img" src="images\apple-icon.gif" alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-fruit-text">1 large (242g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-fruit-text">130</p>
+                  </div>
+                </div>
+
+                <div class="raw-fruit-card row">
+                  <div class="col-4">
+                    <p class="raw-fruit-text">Lemon <img class="raw-fruit-img" src="images\lemon-icon.gif" alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-fruit-text">1 Medium (58g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-fruit-text">15</p>
+                  </div>
+                </div>
+
+                <div class="raw-fruit-card row">
+                  <div class="col-4">
+                    <p class="raw-fruit-text">Banana <img class="raw-fruit-img" src="images\banana-icon.gif" alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-fruit-text">1 Medium (126g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-fruit-text">110</p>
+                  </div>
+                </div>
+
+                <div class="raw-fruit-card row">
+                  <div class="col-4">
+                    <p class="raw-fruit-text">Avocado <img class="raw-fruit-img" src="images\avocado-icon.gif" alt="">
+                    </p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-fruit-text">1/5 medium (30g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-fruit-text">50</p>
+                  </div>
+                </div>
+
+                <div class="raw-fruit-card row">
+                  <div class="col-4">
+                    <p class="raw-fruit-text">Pineapple <img class="raw-fruit-img" src="images\pineapple-icon.gif"
+                        alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-fruit-text">2 slices (112g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-fruit-text">50</p>
+                  </div>
+                </div>
+
+                <div class="raw-fruit-card row">
+                  <div class="col-4">
+                    <p class="raw-fruit-text">Watermelon <img class="raw-fruit-img" src="images\watermelon-icon.gif"
+                        alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-fruit-text">diced pieces (300g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-fruit-text">90</p>
+                  </div>
+                </div>
+
+                <div class="raw-fruit-card row">
+                  <div class="col-4">
+                    <p class="raw-fruit-text">Strawberry <img class="raw-fruit-img" src="images\strawberry-icon.gif"
+                        alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-fruit-text">8 medium (147g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-fruit-text">50</p>
+                  </div>
+                </div>
+
+                <div class="raw-fruit-card row">
+                  <div class="col-4">
+                    <p class="raw-fruit-text">Tangerine <img class="raw-fruit-img" src="images\tangerine-icon.gif"
+                        alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-fruit-text">1 medium (109g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-fruit-text">50</p>
+                  </div>
+                </div>
+
+                <div class="raw-fruit-card row">
+                  <div class="col-4">
+                    <p class="raw-fruit-text">Orange <img class="raw-fruit-img" src="images\orange-icon.gif" alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-fruit-text">1 medium (154g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-fruit-text">80</p>
+                  </div>
+                </div>
+
+                <div class="raw-fruit-card row">
+                  <div class="col-4">
+                    <p class="raw-fruit-text">Grapes <img class="raw-fruit-img" src="images\grapes-icon.gif" alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-fruit-text">1 cup (92g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-fruit-text">62</p>
+                  </div>
+                </div>
+
+                <div class="raw-fruit-card row">
+                  <div class="col-4">
+                    <p class="raw-fruit-text">Lime <img class="raw-fruit-img" src="images\lime-icon.gif" alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-fruit-text">1 Medium (67g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-fruit-text">20</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- RAW FRUITS END-->
+
+          <!-- RAW VEGETABLES -->
+          <div class="col">
+            <div class="raw-vegetables">
+
+              <div class="raw-vegetables-header">
+                <div class="row">
+                  <div class="col-4">
+                    <p>Vegetables <img class="raw-vegetable-header-img" src="images\vegetables-icon.gif" alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p>Quantity</p>
+                  </div>
+                  <div class="col-3">
+                    <p>Calories</p>
+                  </div>
+                </div>
+              </div>
+              <div class="raw-vegetables-body">
+
+                <div class="raw-vegetable-card row">
+                  <div class="col-4">
+                    <p class="raw-vegetable-text">Carrot <img class="raw-vegetable-img" src="images\carrot-icon.gif"
+                        alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-vegetable-text">1 carrot (78g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-vegetable-text">30</p>
+                  </div>
+                </div>
+
+                <div class="raw-vegetable-card row">
+                  <div class="col-4">
+                    <p class="raw-vegetable-text">Broccoli <img class="raw-vegetable-img"
+                        src="images\broccoli-icon.gif" alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-vegetable-text">1 medium stalk (148g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-vegetable-text">45</p>
+                  </div>
+                </div>
+
+                <div class="raw-vegetable-card row">
+                  <div class="col-4">
+                    <p class="raw-vegetable-text">Cucumber <img class="raw-vegetable-img" src="images\cucumber-icon.gif"
+                        alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-vegetable-text">1/3 medium (99g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-vegetable-text">10</p>
+                  </div>
+                </div>
+
+                <div class="raw-vegetable-card row">
+                  <div class="col-4">
+                    <p class="raw-vegetable-text">Asparagus <img class="raw-vegetable-img" src="images\asparagus-icon.gif"
+                        alt="">
+                    </p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-vegetable-text">5 spears (93g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-vegetable-text">30</p>
+                  </div>
+                </div>
+
+                <div class="raw-vegetable-card row">
+                  <div class="col-4">
+                    <p class="raw-vegetable-text">Sweet Potato <img class="raw-vegetable-img" src="images\potato-icon.gif"
+                        alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-vegetable-text">1 medium (130g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-vegetable-text">100</p>
+                  </div>
+                </div>
+
+                <div class="raw-vegetable-card row">
+                  <div class="col-4">
+                    <p class="raw-vegetable-text">Green Cabbage <img class="raw-vegetable-img"
+                        src="images\cabbage-icon.gif" alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-vegetable-text">1/12 medium head (84g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-vegetable-text">25</p>
+                  </div>
+                </div>
+
+                <div class="raw-vegetable-card row">
+                  <div class="col-4">
+                    <p class="raw-vegetable-text">Green Onions <img class="raw-vegetable-img"
+                        src="images\green-onion-icon.gif" alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-vegetable-text">¼ cup chopped (25g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-vegetable-text">10</p>
+                  </div>
+                </div>
+
+                <div class="raw-vegetable-card row">
+                  <div class="col-4">
+                    <p class="raw-vegetable-text">Lettuce leaf <img class="raw-vegetable-img" src="images\lettuce-icon.gif" alt="">
+                    </p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-vegetable-text">11/2 cups shredded (85g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-vegetable-text">15</p>
+                  </div>
+                </div>
+
+                <div class="raw-vegetable-card row">
+                  <div class="col-4">
+                    <p class="raw-vegetable-text">Mushroom <img class="raw-vegetable-img"
+                        src="images\mushroom-icon.gif" alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-vegetable-text">5 medium (84g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-vegetable-text">20</p>
+                  </div>
+                </div>
+
+                <div class="raw-vegetable-card row">
+                  <div class="col-4">
+                    <p class="raw-vegetable-text">Ball Pepper <img class="raw-vegetable-img" src="images\paprika-icon.gif"
+                        alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-vegetable-text">1 medium (148g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-vegetable-text">25</p>
+                  </div>
+                </div>
+
+                <div class="raw-vegetable-card row">
+                  <div class="col-4">
+                    <p class="raw-vegetable-text">Tomato <img class="raw-vegetable-img" src="images\tomato-icon.gif" alt="">
+                    </p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-vegetable-text">1 medium (148g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-vegetable-text">45</p>
+                  </div>
+                </div>
+
+                <div class="raw-vegetable-card row">
+                  <div class="col-4">
+                    <p class="raw-vegetable-text">Onion <img class="raw-vegetable-img" src="images\onion-icon.gif"
+                        alt=""></p>
+                  </div>
+                  <div class="col-5">
+                    <p class="raw-vegetable-text">1 medium (148g)</p>
+                  </div>
+                  <div class="col-3">
+                    <p class="raw-vegetable-text">45</p>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <!-- RAW VEGETABLE END-->
 
         </div>
+        <!-- FIRST CONTAINER COL-1 END  -->
+        <!-- FIRST CONTAINER COL-2 START  -->
+        <div class="col-md-4">
+          <div class="container second-col">
+            <p class="second-col-header">My Calories Intake</p>
+            <div class="container today-container">
+              <p class="today-header">Total calories consumed</p>
+              <p class="todays-date"><span id="todays-date">Today's date</span><span class="total-calories">2090</span>
+              </p>
+            </div>
+            <div class="container todays-meals">
+
+              <div class="meal-card">
+                <div class="row meal-row">
+                  <div class="col-md-4">
+                    <img src="images\pancakes.jpg" class="img-fluid" alt="jellof">
+                  </div>
+                  <div class="col-md-8">
+                    <p class="meal-text"><span class="meal-type">Pancakes x4</span> <span
+                        class="meal-calories">580</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="meal-card">
+                <div class="row meal-row">
+                  <div class="col-md-4">
+                    <img src="images\buns.jpg" class="img-fluid" alt="buns">
+                  </div>
+                  <div class="col-md-8">
+                    <p class="meal-text"><span class="meal-type">Fried buns x6</span> <span
+                        class="meal-calories">640</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="meal-card">
+                <div class="row meal-row">
+                  <div class="col-md-4">
+                    <img src="images\ramen.jpg" class="img-fluid" alt="ramen">
+                  </div>
+                  <div class="col-md-8">
+                    <p class="meal-text"><span class="meal-type">Noodles x1</span> <span
+                        class="meal-calories">430</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="meal-card">
+                <div class="row meal-row">
+                  <div class="col-md-4">
+                    <img src="images\jellof.jpg" class="img-fluid" alt="jellof">
+                  </div>
+                  <div class="col-md-8">
+                    <p class="meal-text"><span class="meal-type">Jellof Rice x1</span> <span
+                        class="meal-calories">440</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- DASHBOARD BUTTON START  -->
+            <div class="d-grid back-to-dashboard-div">
+              <button class="btn rounded-pill back-to-dashboard" type="button">Back to dashboard</button>
+            </div>
+            <!-- DASHBOARD BUTTON END -->
+          </div>
+        </div>
+        <!-- FIRST CONTAINER COL-2 END  -->
       </div>
+
     </div>
+  </div>
 
 
 
@@ -79,4 +834,9 @@
   </div>
 
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="index.js"></script>
+
 </html>
+
+<!-- shift + alt + f to format codes on vscode -->
