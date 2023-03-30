@@ -112,17 +112,6 @@ if (window.matchMedia("(max-width: 992px)").matches) {
     });
     // LEARN MORE END
 
-    // FRUITS AND VEGETABLES 
-    // $(".more-food").click(function () {
-        
-    // });
-    // FRUITS AND VEGETABLES END 
-
-
-
-
-
-
     //BACK TO DASHBOARD BUTTON
     $(".back-to-dashboard").click(function () {
         $(".second-col-header, .today-container, .todays-meals").slideDown("slow");

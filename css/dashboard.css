@@ -225,6 +225,10 @@
 /* LOG DIET ENDS  */
 
 /* SECOND CONTAINER  */
+.second-container-div {
+    margin: 5% 0;
+}
+
 .second-container-header {
     padding: 0 3%;
 }
@@ -351,7 +355,7 @@ button:hover {
 
 /* FRUIT AND VEG START */
 .fruit-and-veg-div {
-    margin: 10% 0;
+    margin: 20% 0;
 }
 
 .fruit-and-veg-col1,
@@ -360,7 +364,7 @@ button:hover {
     padding: 15% 5% 5%;
     width: 95%;
     margin: auto;
-    height: 15rem;
+    height: 10rem;
     text-align: center;
 }
 
@@ -383,15 +387,11 @@ button:hover {
 
 .fruit-and-veg-text1,
 .fruit-and-veg-text2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
 }
 
-.fruit-and-veg-text1 {
-    margin-top: 7%;
-}
-
-.fruit-and-veg-text2 {
+.fruit-and-veg-text1, .fruit-and-veg-text2 {
     margin-top: 0;
 }
 /* FRUIT AND VEG END */
