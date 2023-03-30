@@ -3,20 +3,53 @@
   display: none
 }
 
-.phone, .phone.navbar-toggler-icon {
+.phone,
+.phone.navbar-toggler-icon {
   display: block;
 }
 
 /* COLORING */
-.navbar, .login-button:hover, .sign-in-button:hover, .first-div, .forth-div, .seventh-div, .seventh-button:hover, footer, .footer-android-button:hover, .footer-iphone-button:hover {
+.navbar,
+.login-button:hover,
+.sign-in-button:hover,
+.first-div,
+.forth-div,
+.seventh-div,
+.seventh-button:hover,
+footer,
+.footer-android-button:hover,
+.footer-iphone-button:hover {
   background-color: #810CA8;
 }
 
-.login-button:hover, .sign-in-button:hover, .navbar-toggler, a.nav-text, .first-header, .first-subheader, .forth-header, .card-title, .card-icon, .seventh-header, .seventh-button:hover, .footer-android-button:hover, .footer-iphone-button:hover {
+.login-button:hover,
+.sign-in-button:hover,
+.navbar-toggler,
+a.nav-text,
+.first-header,
+.first-subheader,
+.forth-header,
+.card-title,
+.card-icon,
+.seventh-header,
+.seventh-button:hover,
+.footer-android-button:hover,
+.footer-iphone-button:hover {
   color: white;
 }
 
-button.close-button, .login-button, .sign-in-button, .logo-text, .download-icon, .rated-icon, .third-header, .fifth-header, .fa-carousel, .seventh-button, .footer-android-button, .footer-iphone-button {
+button.close-button,
+.login-button,
+.sign-in-button,
+.logo-text,
+.download-icon,
+.rated-icon,
+.third-header,
+.fifth-header,
+.fa-carousel,
+.seventh-button,
+.footer-android-button,
+.footer-iphone-button {
   color: #810CA8;
 }
 
@@ -66,7 +99,8 @@ a.sidebar-text:hover {
   padding-bottom: 10%;
 }
 
-.side-signin-button, .side-signup-button {
+.side-signin-button,
+.side-signup-button {
   border: 2px solid #9c0ecb;
   color: #810CA8;
   background-color: white;
@@ -76,7 +110,8 @@ a.sidebar-text:hover {
   font-weight: 500;
 }
 
-.side-signin-button:hover, .side-signup-button:hover {
+.side-signin-button:hover,
+.side-signup-button:hover {
   background-color: #810CA8;
   color: white;
 }
@@ -84,7 +119,7 @@ a.sidebar-text:hover {
 /* BODY */
 /* FIRST DIV */
 .first-div {
-  padding: 30% 0;
+  padding: 28% 0%;
   text-align: center;
   border-radius: 0 0 16px 16px;
   height: 43rem;
@@ -110,12 +145,14 @@ a.sidebar-text:hover {
   font-size: 1.4rem;
 }
 
-.android-button, .iphone-button {
+.android-button,
+.iphone-button {
   padding: .2rem .4rem;
   font-size: 1rem;
 }
 
-.android-button, .iphone-button {
+.android-button,
+.iphone-button {
   border: 2px solid #9c0ecb;
   color: #810CA8;
   border-radius: 6px;
@@ -124,11 +161,13 @@ a.sidebar-text:hover {
   font-weight: 500;
 }
 
-.android-button, .footer-android-button {
+.android-button,
+.footer-android-button {
   margin-right: 1%;
 }
 
-.android-button:hover, .iphone-button:hover {
+.android-button:hover,
+.iphone-button:hover {
   border: 2px solid #79F350;
   color: #810CA8;
 }
@@ -159,7 +198,8 @@ a.sidebar-text:hover {
   width: 35%;
 }
 
-.second-div-header, .second-span {
+.second-div-header,
+.second-span {
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -189,7 +229,12 @@ a.sidebar-text:hover {
 }
 
 .womenhealthpic {
-  width: 60%;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: auto;
+  letter-spacing: -.2rem;
+  line-height: 2rem;
+  color: #eb2521;
 }
 
 /* FORTH-DIV */
@@ -198,7 +243,9 @@ a.sidebar-text:hover {
   text-align: center;
 }
 
-.forth-header, .fifth-header, .sixth-header {
+.forth-header,
+.fifth-header,
+.sixth-header {
   font-size: 2rem;
   font-weight: 600;
 }
@@ -219,7 +266,8 @@ a.sidebar-text:hover {
   border-radius: 6px;
 }
 
-.card-title, .sixth-card-title {
+.card-title,
+.sixth-card-title {
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -257,7 +305,8 @@ div.carousel-container {
   color: #2D033B;
 }
 
-.fa-quote-right, .fa-quote-left {
+.fa-quote-right,
+.fa-quote-left {
   font-size: 2rem;
 }
 
@@ -265,7 +314,8 @@ div.carousel-container {
   float: right;
 }
 
-button.carousel-control-prev, button.carousel-control-next {
+button.carousel-control-prev,
+button.carousel-control-next {
   display: none;
 }
 
@@ -279,7 +329,8 @@ button.carousel-control-prev, button.carousel-control-next {
   padding: 5% 0 2% 0;
 }
 
-.sixth-header, .sixth-card-title {
+.sixth-header,
+.sixth-card-title {
   color: #eb2521;
 }
 
@@ -349,7 +400,8 @@ footer {
   color: white;
 }
 
-.footer-first-div, .footer-second-div {
+.footer-first-div,
+.footer-second-div {
   padding: 5%;
   text-align: center;
 }
@@ -360,7 +412,8 @@ footer {
 }
 
 /* FOOTER BUTTON */
-.footer-iphone-button, .footer-android-button {
+.footer-iphone-button,
+.footer-android-button {
   border-radius: 8px;
   border: 2px solid white;
   padding: .4rem 1.2rem;
@@ -412,7 +465,8 @@ footer {
 }
 
 /* COPYRIGHT  */
-.footer-copy-text, .footer-contact-text {
+.footer-copy-text,
+.footer-contact-text {
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -436,24 +490,7 @@ footer {
 /* */
 /* */
 /* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
+
 /* PC MEDIA QUERY */
 @media (min-width: 992px) {
 
@@ -462,7 +499,8 @@ footer {
     display: block;
   }
 
-  .phone, .phone.navbar-toggler-icon {
+  .phone,
+  .phone.navbar-toggler-icon {
     display: none;
   }
 
@@ -477,7 +515,8 @@ footer {
   }
 
   /* navbar buttons */
-  .login-button, .sign-in-button {
+  .login-button,
+  .sign-in-button {
     background-color: white;
     padding: .5rem 1.5rem;
     font-size: 1.2rem;
@@ -486,7 +525,8 @@ footer {
     margin: 0 0.3rem;
   }
 
-  .login-button:hover, .sign-in-button:hover {
+  .login-button:hover,
+  .sign-in-button:hover {
     border: 1px solid white;
   }
 
@@ -504,12 +544,15 @@ footer {
     z-index: -2;
   }
 
-  .first-col, .second-col, .third-col {
+  .first-col,
+  .second-col,
+  .third-col {
     z-index: 1
   }
 
   /* FIRST COL */
-  .first-col, .third-col {
+  .first-col,
+  .third-col {
     padding-top: 5%;
   }
 
@@ -529,7 +572,8 @@ footer {
     margin-top: 2rem;
   }
 
-  .android-button, .iphone-button {
+  .android-button,
+  .iphone-button {
     color: #2D033B;
     border-radius: 6px;
     padding: .4rem .8rem;
@@ -537,7 +581,8 @@ footer {
     font-weight: 500;
   }
 
-  .android-button, .footer-android-button {
+  .android-button,
+  .footer-android-button {
     margin-right: 1%;
   }
 
@@ -592,12 +637,18 @@ footer {
   }
 
   .third-header {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
+    line-height: 2.5rem;
   }
 
   .womenhealthpic {
-    width: 40%;
+    font-size: 8rem;
+    font-weight: 700;
+    margin: auto;
+    letter-spacing: -.5rem;
+    line-height: 6rem;
+    color: #eb2521;
   }
 
   /* FORTH-DIV */
@@ -606,7 +657,9 @@ footer {
     text-align: center;
   }
 
-  .forth-header, .fifth-header, .sixth-header {
+  .forth-header,
+  .fifth-header,
+  .sixth-header {
     font-size: 3rem;
     font-weight: 700;
   }
@@ -620,11 +673,13 @@ footer {
     border: none;
   }
 
-  .card-title, .sixth-card-title {
+  .card-title,
+  .sixth-card-title {
     font-size: 2rem;
   }
 
-  .forth-row1, .forth-row2 {
+  .forth-row1,
+  .forth-row2 {
     padding-top: 5%;
   }
 
@@ -658,7 +713,8 @@ footer {
     float: right;
   }
 
-  button.carousel-control-prev, button.carousel-control-next {
+  button.carousel-control-prev,
+  button.carousel-control-next {
     display: block;
   }
 
@@ -671,7 +727,8 @@ footer {
     padding: 5% 0 3% 0;
   }
 
-  .sixth-header, .sixth-card-title {
+  .sixth-header,
+  .sixth-card-title {
     color: #eb2521;
   }
 
@@ -732,7 +789,8 @@ footer {
 
   /* FOOTER */
 
-  .footer-first-div, .footer-second-div {
+  .footer-first-div,
+  .footer-second-div {
     text-align: left;
   }
 
@@ -758,7 +816,8 @@ footer {
   }
 
   /* FOOTER ICON */
-  .footer-iphone-button, .footer-android-button {
+  .footer-iphone-button,
+  .footer-android-button {
     border-radius: 8px;
     border: 2px solid white;
     padding: .2rem .6rem;

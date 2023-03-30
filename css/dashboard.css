@@ -2,15 +2,17 @@
 .dash-div,
 .first-container,
 .btn.more-food:hover,
+.btn.back-to-details:hover,
 .btn.back-to-dashboard:hover {
     background-color: #ececea;
 }
 
 .first-container-header,
-.btn.first-container-text,
-.btn.more-food:hover,
-.second-col-header, 
+.btn.first-container-text:hover,
+.btn.more-food,
+.second-col-header,
 .log-diet-link a,
+.btn.back-to-details:hover,
 .btn.back-to-dashboard:hover {
     color: #a226cc;
 }
@@ -20,9 +22,10 @@
 }
 
 .notification-number,
-.btn.more-food, 
-.today-container, 
-.btn.first-container-text:hover, 
+.today-container,
+.btn.first-container-text,
+.btn.more-food:hover,
+.btn.back-to-details,
 .btn.back-to-dashboard {
     background-color: #a226cc;
     color: white;
@@ -30,22 +33,19 @@
 
 /* COLOR END */
 
-body {
-    background-color: #a226cc !important;
-    padding: 2% 5%;
+
+/* PHONE MEDIA QUERY */
+.phone {
+    display: block;
+}
+
+.pc {
+    display: none;
 }
 
 /* HEADER  */
 .dash-div {
-    border-radius: 32px;
-    padding: 1rem;
-}
-
-.navbar-username {
-    display: inline;
-    margin-left: .5rem;
-    font-size: 1.4rem;
-    font-weight: 500;
+    padding: 1rem 1rem 2rem;
 }
 
 .navbar {
@@ -54,8 +54,16 @@ body {
     margin: auto;
 }
 
+.navbar-username {
+    display: inline;
+    margin-left: .5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #a226cc;
+}
+
 .navbar-div-2 {
-   padding-right: 1rem;
+    padding-right: 1rem;
 }
 
 .user-gif {
@@ -65,6 +73,8 @@ body {
 /* SEARCH BAR  */
 .form {
     position: relative;
+    width: 90%;
+    margin: auto;
 }
 
 .form .fa-search {
@@ -90,7 +100,6 @@ body {
     height: 2rem;
     text-indent: 2.2rem;
     border-radius: 12px !important;
-    width: 30rem !important;
 }
 
 .form-input:focus {
@@ -104,18 +113,19 @@ body {
     display: inline;
     padding: .1rem .6rem .3rem;
     margin-left: .2rem;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 /* FIRST CONTAINER  */
 /* FIRST CONTAINER COL-1 START */
 .first-container-gif {
-    width: 100%;
+    width: 70%;
+    margin: 0 15%;
 }
 
 .first-container-header-div {
-    padding: 12% 5% 0;
-    /* top left&right bottom */
+    text-align: center;
+    margin-bottom: 10%;
 }
 
 .first-container-header {
@@ -130,13 +140,14 @@ body {
 }
 
 .btn.first-container-text {
-    margin: 5% 3% 0 0;
+    margin: 0;
     font-weight: 500;
-    float: right;
     padding: .2rem .8rem;
 }
 
 .btn.first-container-text:hover {
+    background-color: white;
+    border: 1px solid #a226cc;
     margin-right: 5%;
 }
 
@@ -150,22 +161,11 @@ body {
     padding: 5% 0;
 }
 
-.calory-eaten-div, .col-12.log-diet-col, .col-12.graph-image-col {
-    background-color: white;
-    padding: 5%;
-}
-
 .calory-eaten-div {
-    border-radius: 12px 6px 6px 12px;
+    padding: 4%;
 }
 
-.col-12.log-diet-col {
-    border-radius: 6px 12px 6px 6px;
-}
-
-.col-12.graph-image-col {
-    border-radius: 6px 6px 12px 6px;
-}
+/* LEARN MORE END */
 
 /* CALORY EATEN START  */
 .calory-eaten-header {
@@ -189,11 +189,20 @@ body {
     float: right;
     font-size: .9rem;
 }
+
 /* CALORY EATEN END  */
 
 /* LOG DIET START  */
+.col-12.log-diet-col {
+    background-color: #a226cc;
+    color: white;
+    border-radius: 6px;
+    padding: 5%;
+    margin: 10% 0;
+}
+
 .log-diet-img {
-    width: 100%;
+    width: 90%;
 }
 
 .log-diet-text {
@@ -204,23 +213,20 @@ body {
 .log-diet-link a {
     text-decoration: none;
     float: right;
-    font-weight: 500;
-}
-
-.col-12.graph-image-col {
-    margin-top: 4%;
+    font-weight: 400;
+    color: #ececea;
 }
 
 .graph-image {
-    width: 80%;
-    margin: 10%;
+    width: 60%;
+    margin: 5% 20% 10%;
 }
+
 /* LOG DIET ENDS  */
 
 /* SECOND CONTAINER  */
-
 .second-container-header {
-    padding: 3%;
+    padding: 0 3%;
 }
 
 .second-container-header {
@@ -231,7 +237,7 @@ body {
 .food-header {
     width: 2rem;
     display: inline;
-    padding-bottom: .5rem;
+    padding-bottom: .2rem;
 }
 
 .btn.more-food {
@@ -240,7 +246,9 @@ body {
     font-size: .8rem;
 }
 
-.btn.more-food:hover, .btn.back-to-dashboard:hover {
+.btn.more-food,
+.btn.back-to-details,
+.btn.back-to-dashboard:hover {
     border: 1px solid #a226cc;
 }
 
@@ -249,9 +257,16 @@ body {
     margin-left: .4rem;
 }
 
-.btn.back-to-dashboard {
-    margin-top: 20%;
+.food-types {
+    padding: 0 3%;
 }
+
+.btn.back-to-details,
+.btn.back-to-dashboard {
+    margin-top: 5%;
+}
+
+/* SECOND CONTAINER END */
 
 /* CAROUSEL START */
 .col-10,
@@ -274,7 +289,7 @@ body {
 }
 
 .slider-item {
-    flex-basis: 15%;
+    flex-basis: 30%;
     flex-shrink: 0;
     display: block;
 }
@@ -299,7 +314,7 @@ body {
 }
 
 .control {
-    margin-top: 25%;
+    margin-top: 40%;
     float: right;
 }
 
@@ -331,20 +346,21 @@ button:hover {
     padding-left: 12px;
     padding-bottom: 5px;
 }
+
 /* CAROUSEL END  */
 
 /* FRUIT AND VEG START */
 .fruit-and-veg-div {
-    margin: 6% 0;
+    margin: 10% 0;
 }
 
-.fruit-and-veg-col1, .fruit-and-veg-col2 {
-    border-radius: 12px 12px 0 0;
-    background-color:  #a226cc;
-    padding: 5%;
-    width: 80%;
+.fruit-and-veg-col1,
+.fruit-and-veg-col2 {
+    background-color: #a226cc;
+    padding: 15% 5% 5%;
+    width: 95%;
     margin: auto;
-    height: 20rem;
+    height: 15rem;
     text-align: center;
 }
 
@@ -356,33 +372,38 @@ button:hover {
     border-radius: 12px 12px 0 0;
 }
 
-.fruit-and-veg-img1 {
+.fruit-and-veg-img1, .fruit-and-veg-img2 {
     width: 70%;
 }
 
 .fruit-and-veg-col2 {
     border-radius: 0 0 12px 12px;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
-
-.fruit-and-veg-img2 {
-    width: 70%;
-}
-
-.fruit-and-veg-text1, .fruit-and-veg-text2 {
-    font-size: 4rem;
+.fruit-and-veg-text1,
+.fruit-and-veg-text2 {
+    font-size: 3rem;
     color: white;
-    margin-top: 15%;
+}
+
+.fruit-and-veg-text1 {
+    margin-top: 7%;
+}
+
+.fruit-and-veg-text2 {
+    margin-top: 0;
 }
 /* FRUIT AND VEG END */
+
+
 /* RAW FRUITS START  */
 .raw-fruits {
     background-color: white;
     border-radius: 16px;
-    padding: 5% 0 5% 10%;
-    width: 90%;
-    margin: 5% auto;
+    padding: 8%;
+    width: 100%;
+    margin: 10% auto 5%;
 }
 
 .raw-fruits-header {
@@ -397,6 +418,7 @@ button:hover {
 
 .raw-fruit-img {
     width: 2rem;
+    display: block;
 }
 
 .raw-fruits-body {
@@ -404,13 +426,15 @@ button:hover {
     font-weight: 450;
 }
 /* RAW FRUITS END  */
+
+
 /* RAW VEGETABLES START  */
 .raw-vegetables {
     background-color: white;
     border-radius: 16px;
-    padding: 5% 0 5% 10%;
-    width: 90%;
-    margin: 5% auto;
+    padding: 8%;
+    width: 100%;
+    margin: 10% auto 5%;
 }
 
 .raw-vegetables-header {
@@ -424,27 +448,18 @@ button:hover {
 
 .raw-vegetable-img {
     width: 2rem;
+    display: block;
 }
 
 .raw-vegetable-body {
     color: rgb(51, 51, 51);
     font-weight: 450;
 }
+
 /* RAW VEGETABLES END  */
-
-
-
-
-
-
-
 
 /* FIRST CONTAINER COL-1 END  */
 /* FIRST CONTAINER COL-2 START */
-.container.second-col {
-    padding-left: 15%;
-}
-
 .second-col-header {
     margin: 10% 0 5%;
     font-size: 1.4rem;
@@ -470,8 +485,8 @@ button:hover {
 
 /* TODAY MEALS  */
 .container.todays-meals {
-    padding: 0;
-    margin-top: 15%;
+    padding: 0 5%;
+    margin-top: 10%;
 }
 
 .meal-card {
@@ -490,7 +505,6 @@ button:hover {
 .meal-calories {
     float: right;
     font-size: .9rem;
-    margin-right: 15%;
 }
 
 .img-fluid {
@@ -499,3 +513,267 @@ button:hover {
 }
 
 /* FIRST CONTAINER COL-2 END */
+
+
+
+
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+
+/* PC MEDIA QUERY */
+@media (min-width: 992px) {
+    body {
+        background-color: #a226cc !important;
+        padding: 2% 5%;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .pc {
+        display: block;
+    }
+
+    /* HEADER  */
+    .dash-div {
+        border-radius: 32px;
+        padding: 1rem 1rem 1.5rem;
+    }
+
+    .navbar-username {
+        color: black;
+    }
+
+    .navbar {
+        width: 90%;
+    }
+
+    /* SEARCH BAR  */
+    .form {
+        width: 30rem;
+        margin: auto;
+    }
+
+    /* SEARCH BAR  END*/
+
+    /* FIRST CONTAINER  */
+    /* FIRST CONTAINER COL-1 START */
+    .first-container-gif {
+        width: 100%;
+        margin: auto;
+    }
+
+    .first-container-header-div {
+        padding: 12% 5% 0;
+        text-align: left;
+    }
+
+    .btn.first-container-text {
+        margin: 5% 3% 0 0;
+    }
+
+    /* LEARN MORE  */
+    .learn-more-div {
+        padding: 5% 0;
+    }
+
+    .calory-eaten-div,
+    .col-12.log-diet-col,
+    .col-12.graph-image-col {
+        background-color: white;
+        padding: 5%;
+    }
+
+    .calory-eaten-div {
+        border-radius: 12px 6px 6px 12px;
+    }
+
+    .log-diet-img {
+        width: 100%;
+    }
+
+    .col-12.log-diet-col {
+        border-radius: 6px 12px 6px 6px;
+        margin: 0;
+        color: black;
+    }
+
+    .log-diet-link a {
+        font-weight: 500;
+        color: blue;
+    }
+
+    .col-12.graph-image-col {
+        border-radius: 6px 6px 12px 6px;
+    }
+
+    /* LEARN MORE END */
+
+    /* CALORY EATEN START  */
+    .calory-eaten-header {
+        font-weight: 500;
+    }
+
+    .calory-eaten-card {
+        margin-top: 5%;
+    }
+
+    .calory-eaten-text {
+        margin-top: .4rem;
+        font-weight: 500;
+    }
+
+    .calory-eaten-type {
+        font-size: .8rem;
+    }
+
+    .calory-eaten-calories {
+        float: right;
+        font-size: .9rem;
+    }
+
+    /* CALORY EATEN END  */
+
+    /* LOG DIET START  */
+    .log-diet-img {
+        width: 100%;
+    }
+
+    .col-12.graph-image-col {
+        margin-top: 4%;
+    }
+
+    .graph-image {
+        width: 80%;
+        margin: 10%;
+    }
+
+    /* LOG DIET ENDS  */
+
+    /* SECOND CONTAINER  */
+    .food-header {
+        padding-bottom: .5rem;
+    }
+
+    .food-types {
+        padding: 0 2.5% 2%;
+    }
+
+    .btn.back-to-details,
+    .btn.back-to-dashboard {
+        margin-top: 20%;
+    }
+
+    /* SECOND CONTAINER END */
+
+    /* CAROUSEL START */
+    .slider-item {
+        flex-basis: 15%;
+    }
+
+    .control {
+        margin-top: 25%;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    /* CAROUSEL END  */
+
+    /* FRUIT AND VEG START */
+    .fruit-and-veg-div {
+        margin: 6% 0;
+    }
+
+    .fruit-and-veg-col1,
+    .fruit-and-veg-col2 {
+        background-color: #a226cc;
+        padding: 5%;
+        width: 80%;
+        margin: auto;
+        height: 20rem;
+        text-align: center;
+    }
+
+    .fruit-and-veg-col2 {
+        margin-top: 2%;
+    }
+
+    .fruit-and-veg-text1,
+    .fruit-and-veg-text2 {
+        font-size: 4rem;
+        margin-top: 15%;
+    }
+    /* FRUIT AND VEG END */
+
+
+    /* RAW FRUITS START  */
+    .raw-fruits {
+        padding: 5% 0 5% 10%;
+        width: 90%;
+        margin: 5% auto;
+    }
+
+    .raw-fruit-img {
+        width: 2rem;
+        display: inline;
+    }
+    /* RAW FRUITS END  */
+
+
+    /* RAW VEGETABLES START  */
+    .raw-vegetables {
+        padding: 5% 0 5% 10%;
+        width: 90%;
+        margin: 5% auto;
+    }
+
+    .raw-vegetable-img {
+        width: 2rem;
+        display: inline;
+    }
+    /* RAW VEGETABLES END  */
+
+    /* FIRST CONTAINER COL-1 END  */
+    /* FIRST CONTAINER COL-2 START */
+    div.second-col {
+        padding-left: 15%;
+    }
+
+    /* TODAY MEALS  */
+    .container.todays-meals {
+        padding: 0;
+    }
+
+    /* FIRST CONTAINER COL-2 END */
+}
