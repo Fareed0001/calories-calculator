@@ -226,7 +226,7 @@
 
 /* SECOND CONTAINER  */
 .second-container-div {
-    margin: 5% 0;
+    margin: 15% 0;
 }
 
 .second-container-header {
@@ -262,7 +262,7 @@
 }
 
 .food-types {
-    padding: 0 3%;
+    padding: 5% 3% 0;
 }
 
 .btn.back-to-details,
@@ -355,13 +355,13 @@ button:hover {
 
 /* FRUIT AND VEG START */
 .fruit-and-veg-div {
-    margin: 20% 0;
+    margin: 15% 0;
 }
 
 .fruit-and-veg-col1,
 .fruit-and-veg-col2 {
     background-color: #a226cc;
-    padding: 15% 5% 5%;
+    padding: 2% 5% 5%;
     width: 95%;
     margin: auto;
     height: 10rem;
@@ -392,7 +392,7 @@ button:hover {
 }
 
 .fruit-and-veg-text1, .fruit-and-veg-text2 {
-    margin-top: 0;
+    margin-top: 15%;
 }
 /* FRUIT AND VEG END */
 
@@ -680,6 +680,10 @@ button:hover {
     /* LOG DIET ENDS  */
 
     /* SECOND CONTAINER  */
+    .second-container-div {
+        margin: 0;
+    }
+
     .food-header {
         padding-bottom: .5rem;
     }
