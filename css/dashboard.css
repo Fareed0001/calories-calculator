@@ -303,7 +303,7 @@
     justify-content: center;
     border: 1px solid #9ca3af;
     font-size: .6rem;
-    width: 3.5rem;
+    width: 3.2rem;
 }
 
 .food-button.btn:hover {
@@ -355,16 +355,16 @@ button:hover {
 
 /* FRUIT AND VEG START */
 .fruit-and-veg-div {
-    margin: 15% 0;
+    margin: 15% 0 20%;
 }
 
 .fruit-and-veg-col1,
 .fruit-and-veg-col2 {
     background-color: #a226cc;
-    padding: 2% 5% 5%;
+    padding: 10% 5% 5%;
     width: 95%;
     margin: auto;
-    height: 10rem;
+    height: 12rem;
     text-align: center;
 }
 
@@ -376,8 +376,9 @@ button:hover {
     border-radius: 12px 12px 0 0;
 }
 
-.fruit-and-veg-img1, .fruit-and-veg-img2 {
-    width: 70%;
+.fruit-and-veg-img1,
+.fruit-and-veg-img2 {
+    width: 60%;
 }
 
 .fruit-and-veg-col2 {
@@ -391,9 +392,11 @@ button:hover {
     color: white;
 }
 
-.fruit-and-veg-text1, .fruit-and-veg-text2 {
-    margin-top: 15%;
+.fruit-and-veg-text1,
+.fruit-and-veg-text2 {
+    margin-top: 10%;
 }
+
 /* FRUIT AND VEG END */
 
 
@@ -425,6 +428,7 @@ button:hover {
     color: rgb(51, 51, 51);
     font-weight: 450;
 }
+
 /* RAW FRUITS END  */
 
 
@@ -704,6 +708,10 @@ button:hover {
         flex-basis: 15%;
     }
 
+    .food-button.btn {
+        width: 3.5rem;
+    }
+
     .control {
         margin-top: 25%;
     }
@@ -733,11 +741,17 @@ button:hover {
         margin-top: 2%;
     }
 
+    .fruit-and-veg-img1,
+    .fruit-and-veg-img2 {
+        width: 70%;
+    }
+
     .fruit-and-veg-text1,
     .fruit-and-veg-text2 {
         font-size: 4rem;
         margin-top: 15%;
     }
+
     /* FRUIT AND VEG END */
 
 
@@ -752,6 +766,7 @@ button:hover {
         width: 2rem;
         display: inline;
     }
+
     /* RAW FRUITS END  */
 
 
@@ -766,6 +781,7 @@ button:hover {
         width: 2rem;
         display: inline;
     }
+
     /* RAW VEGETABLES END  */
 
     /* FIRST CONTAINER COL-1 END  */
